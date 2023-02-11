@@ -1,0 +1,204 @@
+h1 {
+    font-style: normal;
+    font-size: 50px;
+    color: #0a3740;
+    font-family: 'Righteous', cursive;
+    margin-top: 4cm;
+    margin-bottom: 0cm;
+}
+
+h2 {
+    font-style: normal;
+    font-size: 25px;
+    color: #0a3740;
+    font-family: 'Righteous', cursive;
+    margin-top: 0.4 m;
+    align-items: center;
+    padding: 0.4cm
+    
+}
+
+h3 {
+    font-style: normal;
+    font-size: 25px;
+    color: #0a3740;
+    font-family: 'Righteous', cursive;
+    align-items: center;
+    padding: 0.5cm;
+    border-top: 0cm;
+    margin-top: 0px;
+}
+
+h4 {
+    font-style: normal;
+    font-size: 15px;
+    color: #0a3740;
+    font-family: 'Righteous', cursive;
+    align-items: center;
+    padding: 0.5cm;
+    border-top: 0cm;
+    margin-top: 0px;
+}
+
+#demo {
+    font-family: 'Righteous', cursive; 
+    font-size: 15px;
+    color: #0a3740;
+    padding: 0.5cm;
+    border-top: 0cm;
+    margin-top: 0px;
+}
+
+#nombre {
+    padding-left: 1cm;
+    color: red;
+    font-size: 20px;
+}
+
+#nombre1 {
+    padding-left: 1.5cm;
+    font-size: 10px;
+    padding-bottom: 0.5cm;
+}
+
+
+.presentacion{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#258a60, #c8d86f);
+
+}
+
+.botones {
+    display: flex;
+}
+
+.boton {
+    background-color: #0c0c0c; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px;
+}
+
+.boton:hover {background-color: #258a60}
+.boton:active {
+    background-color: #258a60;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+
+.presentacion .contenido {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;   
+}
+
+.presentacion .foto {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 80%;
+
+}
+
+.cuerpo {
+    max-width: 100%;
+    height: 100vh;
+}  
+.contenedor1 {
+    height: 100%;
+    width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: auto;
+    float: left;
+    background-color: #b1bf63;
+    display: list-item;
+}
+
+.contenedor2 {
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: #258a60;
+    flex-direction: column;
+    
+}
+
+.proyecto {
+    
+    background-image: url(	https://orientacion.universia.net.co/imgs2011/imagenes/diseno-sin-2020_07_17_202306@2x.jpg);
+    border: none;
+    color: rgb(15, 15, 15);
+    font-style: oblique;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: list-item;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    width: 100%;
+    height: 22%;
+}
+.proyecto:hover {background-color: #258a60}
+.proyecto:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.otrasaptitudes {
+    max-width: 100%;
+    height: 400px;
+}  
+
+.Formacion {
+    height: 100%;
+    width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#d6d578;
+    float: left;
+}
+
+.bloquederecha {
+    height: 50%;
+    width: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: auto;
+    float: right;
+    background-color: #b1bf63;
+    align-items: center;
+    display: flex;
+}
+    
+.bloqueizquierda {
+    width: 30%;
+    height: 50%;
+    float: right;
+    background-color: #258a60;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color:#0a3740 ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+    }
+
+
+  
